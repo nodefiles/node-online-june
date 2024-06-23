@@ -1,0 +1,24 @@
+npm Intellisense
+v1.4.5
+Christian Kohler
++++++++++++++++++++++++++++++
+open in browser
+v2.0.0
+TechER
++++++++++++++++++++++++++++++
+Prettier - Code formatter
+v10.4.0
+Prettier
++++++++++++++++++++++++++++++
+vscode-icons
+v12.8.0
+VSCode Icons Team
++++++++++++++++++++++++++++++
+Mithril Emmet
+v0.7.7
+FallenMax
++++++++++++++++++++++++++++++
+Auto Rename Tag
+v0.1.10
+Jun Han
++++++++++++++++++++++++++++++
