@@ -1,0 +1,17 @@
+{
+  "name": "using-intellipaat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ajitnsarangi": "^1.0.0",
+    "devang_test_module": "^1.0.0",
+    "marvel_avengers": "^1.1.0"
+  }
+}
