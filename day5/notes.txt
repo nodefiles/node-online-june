@@ -1,0 +1,12 @@
+http://p.ip.fi/DOsc
+
+http://p.ip.fi/PQ2i
+
+http://p.ip.fi/Ja8G
+
+http://p.ip.fi/6gsm
+
+npm init -y
+npm i express
+npm i ejs pug -D
+
