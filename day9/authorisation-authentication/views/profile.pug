@@ -1,0 +1,14 @@
+extends template 
+
+block vars
+    - var title = "Profile page"
+    - var company = "Intellipaat"
+block body
+    a(href="/logout") Logout 
+    hr
+    h4 User Info 
+    if userinfo
+        ul 
+            li #{ userinfo.firstname }
+            li #{ userinfo.lastname }
+            li #{ userinfo.email }

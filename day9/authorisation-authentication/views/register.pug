@@ -1,0 +1,27 @@
+extends template 
+
+block vars
+    - var title = "Register page"
+    - var company = "Intellipaat"
+
+block body
+    if clienterror 
+        p ERROR #{ clienterror }
+
+    h2 Create an account 
+    form(method="post")
+        input(type="hidden" name="_csrf" value=csrfToken ) 
+        div( class="mb-3" )
+            label(for="firstname" class="form-label") First Name
+            input(type="text" class="form-control" name="firstname" required id="firstname") 
+        div( class="mb-3" )
+            label(for="lastname" class="form-label") Last Name
+            input(type="text" class="form-control" name="lastname" required id="lastname")  
+        div( class="mb-3" )
+            label(for="email" class="form-label") eMail
+            input(type="email" class="form-control" name="email" required id="email")  
+        div( class="mb-3" )
+            label(for="password" class="form-label") Password
+            input(type="password" class="form-control" name="password" required id="password")  
+        div( class="mb-3" )
+            input(type="submit" class="btn btn-primary" value="Register") 
